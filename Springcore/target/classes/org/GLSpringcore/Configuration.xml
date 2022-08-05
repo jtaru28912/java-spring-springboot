@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:p="http://www.springframework.org/schema/p"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id = "employeeclass" class = "org.GLSpringcore.Employee" name = "EmployeeOne">
+		<property name = "name" value ="Taru"/>
+		<property name = "phone">
+		<list>
+			<value>1012345678</value>			
+			<value>5678978</value>
+			<value>9876543</value>
+		
+		</list>
+		</property>
+		
+		<property name = "address">
+		<set>
+			<value>Delhi</value>
+	     	<value>Mp</value>
+	     	<value>Rajasthan</value>
+		
+		
+		</set>
+		
+		</property>
+		
+	
+		<property name = "courses">
+			<map>
+			<entry key = "" value = ""></entry>
+			<entry key = "" value = ""></entry>
+			<entry key = "" value = ""></entry>
+			<entry key = "" value = ""></entry>
+			</map>
+			
+		</property>
+		
+		
+		
+</bean>
+
+</beans>

@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: org.globallogic.MultiutilsTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in org.globallogic.MultiutilsTest
+testadd  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at org.globallogic.MultiutilsTest.testadd(MultiutilsTest.java:13)
+Caused by: java.lang.ClassNotFoundException: org.junit.Assert
+	at org.globallogic.MultiutilsTest.testadd(MultiutilsTest.java:13)
+
