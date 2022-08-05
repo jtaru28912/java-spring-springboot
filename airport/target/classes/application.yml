@@ -1,0 +1,12 @@
+server:
+  port: 8889
+  
+#This is to define the name in the eureka server
+spring:
+  application:
+    name: airport
+    
+#Configure the hostname
+eureka:
+  instance:
+    hostname: localhost
