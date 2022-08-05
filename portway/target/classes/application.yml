@@ -1,0 +1,23 @@
+server:
+   port: 9990
+eureka:
+  instance:
+    hostname: localhost
+spring:
+  application:
+    name: port-way
+  cloud:
+    gateway:
+      routes:
+      - id: schedule
+        uri:
+          lb://schedule
+        predicates:
+        - Path=/schedule/**
+      - id: airport
+        uri:
+          lb://airport
+        predicates:
+        - Path=/airport/**
+              
+   
