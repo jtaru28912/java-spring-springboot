@@ -1,0 +1,12 @@
+server:
+  port: 9004
+  
+#This is to define the name in the eureka server
+spring:
+  application:
+    name: order-service
+    
+#Configure the hostname
+eureka:
+  instance:
+    hostname: localhost
